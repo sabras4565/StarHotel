@@ -1,0 +1,53 @@
+<html>
+<head>
+<style>
+.signup
+{
+	background:rgba(14,12,55,0.9);
+	padding:40px;
+	height:430px;
+	margin-left:180px;
+	margin:0 auto;
+	margin-top:50px;
+	width:250px;
+	
+}
+
+</style>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<title>sign up</title>
+<link href="signup.css"rel="stylesheet"type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=play"rel="stylesheet">
+</head>
+<body>
+<div class="signup">
+	<form action="button.html"method="post"class="simpleform"onsubmit="return validation()">
+	<h2 style="color:#fff;">Sign Up</h2>
+	<input type="text"id="firstname"placeholder="First name">
+	<p class="error"></p>
+	
+	<input type="text"id="lastname"placeholder="Last name">
+	<p class="error"></p>
+	
+	<input type="password"id="password"placeholder="password">
+	<p class="error"></p>
+	
+	<input type="password"id="confirmpassword"placeholder="Confirm password">
+	<p class="error"></p>
+	
+	<input type="text"id="email"placeholder="Email Address">
+	<p class="error"></p>
+	
+	<input type="button"value="Sign Up"onclick="myfunction"><br><br>
+		
+	
+	
+	
+		Already have account?<a href="login.html"style="text-decoration:none
+	;font-family:'play',sans-serif;color:yellow;">&nbsp;Log In</a>
+
+	</form>
+	<script src="signup.js"></script>
+	</div>
+</body>
+</html>
